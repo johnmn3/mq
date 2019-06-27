@@ -20,6 +20,12 @@ A more faithful implementation of Clojure's syntax-unquote that allows for templ
 
 To try it out:
 ```clojure
+$ clj -Sdeps '{:deps {johnmn3/mq {:git/url "https://github.com/johnmn3/mq" :sha "643ca7a3413ad667d41528d8a1fa01cd462eee08"}}}' -m cljs.main -c mq.core -re node -r
+Cloning: https://github.com/johnmn3/mq
+Checking out: https://github.com/johnmn3/mq at 643ca7a3413ad667d41528d8a1fa01cd462eee08
+ClojureScript 1.10.520
+
+;; or, if you cloned this repo:
 $ clj -m cljs.main -c mq.core -re node -r
 ClojureScript 1.10.520
 
